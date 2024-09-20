@@ -151,15 +151,15 @@ class _PageOneState extends State<PageOne> {
                       ),
                       ElevatedButton(
                         onPressed: () {},
-                        child: const Text("Claim Now"),
                         style: ButtonStyle(
                           backgroundColor:
-                          MaterialStateProperty.all(Colors.white),
+                          WidgetStateProperty.all(Colors.white),
                           shape:
-                          MaterialStateProperty.all(RoundedRectangleBorder(
+                          WidgetStateProperty.all(RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20),
                           )),
                         ),
+                        child: const Text("Claim Now"),
                       ),
                     ],
                   ),
@@ -200,16 +200,16 @@ class _PageOneState extends State<PageOne> {
                   onPressed: () {},
                   style: ButtonStyle(
                     backgroundColor:
-                    MaterialStateProperty.all(Colors.white),
+                    WidgetStateProperty.all(Colors.white),
                     shape:
-                    MaterialStateProperty.all(RoundedRectangleBorder(
+                    WidgetStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     )),
                   ),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Share Payment image"),
+                      const Text("Share Payment image"),
                       Image.asset("assets/Images/UPIImage.png",
                         scale: 8,
                       ),
@@ -222,9 +222,9 @@ class _PageOneState extends State<PageOne> {
                   onPressed: () {},
                   style: ButtonStyle(
                     backgroundColor:
-                    MaterialStateProperty.all(Colors.deepPurpleAccent),
+                    WidgetStateProperty.all(Colors.deepPurpleAccent),
                     shape:
-                    MaterialStateProperty.all(RoundedRectangleBorder(
+                    WidgetStateProperty.all(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20),
                     )),
                   ),
